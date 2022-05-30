@@ -1,10 +1,15 @@
 import React from "react";
-import { Component } from "react/cjs/react.production.min";
+import { Component } from "react";
+import Layout from "../../components/Layout";
 
 class CampaignShow extends Component {
-    render() {
-        return <h3>Campaign show</h3>;
-    }
+  render() {
+    return (
+      <Layout>
+        <h3>Campaign show</h3>
+      </Layout>
+    );
+  }
 }
 
 export default CampaignShow;
